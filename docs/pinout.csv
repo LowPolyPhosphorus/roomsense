@@ -1,0 +1,13 @@
+Component,Pin/Signal,ESP32 GPIO,Notes
+DHT11,Data,GPIO4,Single-wire digital data line
+DHT11,VCC,3V3,
+DHT11,GND,GND,
+LD2420 mmWave,TX (sensor) -> RX (ESP32),GPIO16,UART RX on ESP32 side
+LD2420 mmWave,RX (sensor) <- TX (ESP32),GPIO17,UART TX on ESP32 side
+LD2420 mmWave,VCC,5V,Check module voltage requirement before powering
+LD2420 mmWave,GND,GND,
+KY-037 Sound Sensor,AO (analog out),GPIO34,Analog-only input pin (ADC1) - good fit for AO
+KY-037 Sound Sensor,DO (digital out),GPIO35,Optional - threshold-based trigger output
+KY-037 Sound Sensor,VCC,3V3,Check module - some variants want 5V
+KY-037 Sound Sensor,GND,GND,
+ESP32,Power in,USB,5V via USB cable - powers entire board
