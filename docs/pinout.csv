@@ -2,7 +2,7 @@ Component,Pin/Signal,Board Label,GPIO,Notes
 DHT11,Data,D4,GPIO4,Single-wire digital data line - D-number matches GPIO number on this board
 DHT11,VCC,3V3,3V3,
 DHT11,GND,GND,GND,
-LD2420 mmWave,Sensor RX <- ESP32 TX,TX2,UNCONFIRMED,Board labels this UART2 TX as TX2 - actual GPIO number not yet verified for this specific board. Only needed if sending config/commands to sensor
+LD2420 mmWave,Sensor RX <- ESP32 TX,D19,GPIO19,Optional - only needed to send config/commands to sensor. Moved off TX2 since its real GPIO number isn't printed on this board
 LD2420 mmWave,OT1 (presence output 1),D13,GPIO13,Digital input on ESP32 - reads sensor's presence trigger
 LD2420 mmWave,OT2 (presence output 2),D18,GPIO18,Digital input on ESP32 - second trigger/zone output
 LD2420 mmWave,VCC,3V3,3V3,
