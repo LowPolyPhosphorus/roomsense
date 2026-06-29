@@ -1,0 +1,6 @@
+Item,Quantity,Description,Source/Link,Unit Cost (USD),Total Cost (USD)
+ESP32 Dev Board,1,ESP32-WROOM-32 based development board,https://www.aliexpress.us/item/3256809046198266.html?,$9.23,9.23
+DHT11 Temperature/Humidity Sensor,1,Digital temp + humidity sensor module,https://www.aliexpress.us/item/3256806110239008.html,$7.94,7.94
+mmWave Presence Sensor,1,24GHz mmWave human presence detection module,https://www.aliexpress.us/item/3256806916936421.html,$2.05,2.05
+KY-037 Sound Sensor,1,Analog/digital ambient sound level sensor module,https://www.aliexpress.us/item/3256806851031376.html?,$1.07,1.07
+,,,,Total:,20.29
